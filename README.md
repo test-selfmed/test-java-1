@@ -1,10 +1,12 @@
-Test Self-Med
+<b>Test Self-Med</b>
 
-Le but de ce test est d'implémenter les deux endpoints "/api/output/json" et "/api/output/selfmed".
-Ces deux endpoints doivent retourner le xml issu du endpoint formatter respectivement en json et dans un format inventé "selfmed" (cf: ci-dessous).
+Le but de ce test est d'implémenter les deux endpoints *"/api/output/json"* et *"/api/output/selfmed"* . <br>
+Ces deux endpoints doivent retourner le xml issu du endpoint formatter respectivement en json et dans un format inventé "selfmed" (cf: ci-dessous).<br>
 Le but est de voir comment vous architecturer le tout (interface, enum, etc...)
 
-Xml input:
+
+* Xml input:
+```
 <root>
 	<transaction id="127" date="2019-07-26">
 		<label>Achat De Titres</label>
@@ -22,8 +24,10 @@ Xml input:
 		<status>NOTASSIGNED</status>
 	</transaction>
 </root>
+```
 
-JSON output:
+* JSON output:
+```
 {
 	"transactions": [
 		{
@@ -52,8 +56,10 @@ JSON output:
 		}
 	]
 }
+```
 
-Selfmed output:
+* Selfmed output:
+```
 transaction:
 	id: 127
 	date: 2019-07-26
@@ -72,3 +78,4 @@ transaction:
 	debit: -1400
 	label: NETFLIX ORIGINAL
 	status: 1
+```
