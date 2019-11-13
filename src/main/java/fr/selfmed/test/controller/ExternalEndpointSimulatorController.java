@@ -14,7 +14,7 @@ public class ExternalEndpointSimulatorController {
         this.xmlInputService = xmlInputService;
     }
 
-    @GetMapping("api/xml")
+    @GetMapping("api/input/xml")
     public String getXml() {
         return xmlInputService.getXmlInput();
     }

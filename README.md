@@ -1,8 +1,8 @@
 <b>Test Self-Med</b>
 
 Le but de ce test est d'implémenter les deux endpoints *"/api/output/json"* et *"/api/output/selfmed"* . <br>
-Ces deux endpoints doivent retourner le xml issu du endpoint formatter respectivement en json et dans un format inventé "selfmed" (cf: ci-dessous).<br>
-Le but est de voir comment vous architecturer le tout (interface, enum, etc...)
+Ces deux endpoints doivent retourner le xml issu du endpoint *"/api/input/xml"* formatter respectivement en json et dans un format inventé "selfmed" (cf: ci-dessous).<br>
+Le but est de voir comment vous architecturez le tout (interface, enum, etc...)
 
 
 * Xml input:
