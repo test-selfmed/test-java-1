@@ -6,7 +6,7 @@ Le but est de voir comment vous architecturez le tout (interface, enum, etc...)
 
 
 * Xml input:
-```
+```xml
 <root>
 	<transaction id="127" date="2019-07-26">
 		<label>Achat De Titres</label>
@@ -27,7 +27,7 @@ Le but est de voir comment vous architecturez le tout (interface, enum, etc...)
 ```
 
 * JSON output:
-```
+```json
 {
 	"transactions": [
 		{
