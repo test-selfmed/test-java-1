@@ -4,7 +4,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class XmlInputService {
-    public String getXmlInput() {
+    public static String getXmlInput() {
         return "<root>\n" +
                 "\t<transaction id=\"127\" date=\"2019-07-26\">\n" +
                 "\t\t<label>Achat De Titres</label>\n" +
