@@ -15,22 +15,12 @@ public class OutputController {
     }
 
     @GetMapping("/api/output/json")
-    public String getAsJsonFormat() {
-        String xmlInput = externalApiSimulatorService.callApi("");
-        String output = "";
-
-        // TODO
-
-        return output;
+    public String getAsJsonFormat() {   
+       // TODO
     }
 
     @GetMapping("/api/output/selfmed")
     public String getAsSelfmedFormat() {
-        String xmlInput = externalApiSimulatorService.callApi("");
-        String output = "";
-
-        // TODO
-
-        return output;
+       // TODO
     }
 }
